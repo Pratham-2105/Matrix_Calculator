@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #2b2929; /* Changed background color to dark grey */
+    color: #d4af37; /* Changed text color to darker yellow */
+    font-size: 18px;
+}
+
+#matrix-inputs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color: white; /* Reverted text color to white */
+}
+
+#matrix-inputs div {
+    display: inline-block;
+}
+
+input {
+    width: 40px; /* Decreased input box width */
+    height: 30px; /* Decreased input box height */
+    margin: 5px;
+    text-align: center;
+    color: #2b2929; /* Changed text color to dark grey */
+    background-color: #d4af37; /* Changed input box color to darker yellow */
+    border-radius: 5px; /* Made corners rounded */
+    font-size: 16px; /* Increased font size */
+}
+
+button {
+    padding: 10px 20px; /* Adjusted button padding */
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #2b2929; /* Changed background color to dark grey */
+    color: #d4af37; /* Changed text color to darker yellow */
+    border: none;
+    margin: 5px;
+    border-radius: 25px; /* Made corners more rounded */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow for sleek effect */
+    transition: background-color 0.3s ease; /* Added transition for hover effect */
+}
+
+button:hover {
+    background-color: #555; /* Darker grey on hover */
+}
+
+#resultMatrix {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    color: #d4af37; /* Changed text color to darker yellow */
+}
+
+#resultMatrix td {
+    border: 1px solid #d4af37; /* Changed border color to darker yellow */
+    padding: 10px;
+    text-align: center;
+}
+
+.add-remove-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.add-remove-buttons button {
+    margin: 0 5px;
+}

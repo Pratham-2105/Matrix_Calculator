@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Matrix Calculator</h1>
+    <div id="matrix-dimensions">
+        <div>
+            <label for="rowsA">Rows in Matrix A:</label>
+            <input type="number" id="rowsA" min="1" value="2">
+            <div class="add-remove-buttons">
+                <button id="addRowA">Add Row</button>
+                <button id="removeRowA">Remove Row</button>
+            </div>
+            <label for="colsA">Columns in Matrix A:</label>
+            <input type="number" id="colsA" min="1" value="2">
+            <div class="add-remove-buttons">
+                <button id="addColA">Add Column</button>
+                <button id="removeColA">Remove Column</button>
+            </div>
+        </div>
+        <div>
+            <label for="rowsB">Rows in Matrix B:</label>
+            <input type="number" id="rowsB" min="1" value="2">
+            <div class="add-remove-buttons">
+                <button id="addRowB">Add Row</button>
+                <button id="removeRowB">Remove Row</button>
+            </div>
+            <label for="colsB">Columns in Matrix B:</label>
+            <input type="number" id="colsB" min="1" value="2">
+            <div class="add-remove-buttons">
+                <button id="addColB">Add Column</button>
+                <button id="removeColB">Remove Column</button>
+            </div>
+        </div>
+    </div>
+    <div id="matrix-inputs">
+        <div>
+            <h2>Matrix A</h2>
+            <table id="matrixA"></table>
+        </div>
+        <div>
+            <h2>Matrix B</h2>
+            <table id="matrixB"></table>
+        </div>
+    </div>
+    <div id="operations">
+        <button id="addButton">Add Matrices</button>
+        <button id="subtractButton">Subtract Matrices</button>
+        <button id="multiplyButton">Multiply Matrices</button>
+    </div>
+    <h2>Resultant Matrix</h2>
+    <table id="resultMatrix"></table>
+    <script src="script.js"></script>
+</body>
+</html>
